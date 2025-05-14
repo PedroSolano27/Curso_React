@@ -1,0 +1,19 @@
+/* Estilos da Barra de Navegação */
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#navbar a {
+    color: #ffffff;
+    padding: 0.5rem;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+#navbar .active {
+    background-color: #ffffff;
+    color: #1156a6;
+}

@@ -1,0 +1,19 @@
+/* Estilos do Contador */
+
+.counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.counter-number {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius: 0.7rem;
+    font-size: 4rem;
+    font-weight: bold;
+    min-width: 120px;
+    text-align: center;
+}

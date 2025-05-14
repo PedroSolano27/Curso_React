@@ -1,0 +1,24 @@
+/* Estilos da página de adicionar memórias */
+
+#new-memory-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+#new-memory-page h2 {
+    color: #1146a6;
+    padding: 2rem 0 1rem;
+    text-align: center;
+}
+
+#new-memory-page form {
+    max-width: 500px;
+}
+
+#new-memory-page label {
+    font-weight: bold;
+    color: #555555;
+}

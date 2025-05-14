@@ -1,0 +1,13 @@
+/* Estilo do CSS Dinâmico */
+
+.blue {
+    color: blue;
+    background-color: grey;
+    text-transform: uppercase;
+}
+
+.red {
+    color: red;
+    background-color: lightgray;
+    text-transform: lowercase;
+}

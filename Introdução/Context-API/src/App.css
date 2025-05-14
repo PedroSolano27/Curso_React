@@ -1,0 +1,16 @@
+/* Estilos do Aplicativo */
+
+#root {
+  padding: 2rem;
+  margin: 0 auto;
+  text-align: center;
+  width: 450px;
+}
+
+h1 {
+  padding: 0.8rem;
+}
+
+h2 {
+  margin-bottom: 15px;
+}

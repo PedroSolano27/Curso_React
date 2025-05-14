@@ -1,0 +1,13 @@
+/* Específicos do HookUseLayoutEffect.jsx */
+
+#layout-hook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#layout-hook h4 {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 0.9rem;
+}

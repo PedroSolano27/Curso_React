@@ -1,0 +1,36 @@
+/* Estilos da Calculadora de IMC */
+
+#calc-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: #ccc;
+}
+
+.form-control input {
+    padding: 1rem 0.5rem;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap:  1rem;
+    margin-top: 2rem;
+}

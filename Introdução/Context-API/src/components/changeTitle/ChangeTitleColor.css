@@ -1,0 +1,35 @@
+/* Estilos da Troca de Título */
+
+#color-select {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#color-select button{
+    width: 80px;
+    margin-top: 20px;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+#color-select button:hover{
+    opacity: 1;
+}
+
+#blue {
+    background-color: #4343f7;
+}
+
+#red {
+    background-color: #f73e3e;
+}
+
+#purple {
+    background-color: #771c77;
+}

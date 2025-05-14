@@ -1,0 +1,35 @@
+/* Estilos do HookUseContext.jsx */
+
+#context-hook {
+    display: flex;
+    flex-direction: column;
+}
+
+#context-hook form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#context-hook input{
+    max-width: 60px;
+    padding: 0.2rem;
+    margin-top: 5px;
+    border: 1px solid #7c7c7c;
+    text-align: center;
+}
+
+#context-hook input[type ="submit"] {
+    padding: 0.3rem;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+#context-hook input[type="text"]{
+    max-width: 100%;
+    border-radius: 0;
+}

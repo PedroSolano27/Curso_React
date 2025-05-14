@@ -1,0 +1,26 @@
+/* Estilo da página de Post */
+
+#post-container .post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#post-container .post h2,
+#post-container .post p {
+    margin-bottom: 1rem;
+}
+
+#post-container .post h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#post-container .post h2::first-letter {
+    text-transform: uppercase;
+}
+
+#post-container .post p {
+    text-transform: capitalize;
+}

@@ -1,0 +1,25 @@
+/* Específicos do HookUseState.jsx*/
+
+#state-hook form {
+    display: flex;
+    justify-content: center;
+}
+  
+#state-hook button {
+    padding: 0.3rem;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #7c7c7c;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+  
+#state-hook input{
+    max-width: 60px;
+    padding: 0.2rem;
+    margin-top: 5px;
+    border: 1px solid #7c7c7c;
+    border-radius: 10px;
+    text-align: center;
+}

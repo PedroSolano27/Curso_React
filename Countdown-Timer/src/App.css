@@ -1,0 +1,26 @@
+/* Estilos do Aplicativo Principal */
+
+#background {   
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-width: 50%;
+    min-height: 300px;
+    background-color: #ffffffcc;
+    padding: 3rem;
+    border-radius: 1rem;
+}
+
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    gap: 2rem;
+}

@@ -1,0 +1,23 @@
+/* Estilos do Contador */
+
+#counter-btn {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+#counter-btn button{
+    margin-top: 20px;
+    padding: 0.5rem;
+    background-color: #c0c0c0;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+#counter-btn button:hover{
+    opacity: 1;
+}

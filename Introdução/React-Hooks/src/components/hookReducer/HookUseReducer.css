@@ -1,0 +1,42 @@
+/* Específicos do HookUseReducer.jsx*/
+
+#reducer-hook form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#reducer-hook input{
+    max-width: 60px;
+    padding: 0.2rem;
+    margin-top: 5px;
+    border: 1px solid #7c7c7c;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#reducer-hook input[type ="submit"] {
+    padding: 0.3rem;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+    border: 1px solid #7c7c7c;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+#reducer-hook input[type="text"]{
+    max-width: 100%;
+    border-radius: 0;
+}
+
+#reducer-hook ul{
+    list-style-type: none;
+    margin-top: 10px;    
+}
+
+#reducer-hook li{
+    margin: 5px 0;
+    font-size: 0.8rem;
+    border-bottom: 1px solid #7c7c7c;
+}

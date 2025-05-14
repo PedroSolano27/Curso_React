@@ -1,0 +1,13 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}

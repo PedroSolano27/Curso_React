@@ -1,0 +1,64 @@
+{
+  "products": [
+    {
+      "name": "Capa de Chuva",
+      "price": "50.50",
+      "id": 1
+    },
+    {
+      "name": "Teclado",
+      "price": "110",
+      "id": 2
+    },
+    {
+      "name": "Cadeira",
+      "price": "200",
+      "id": 3
+    },
+    {
+      "name": "Mouse",
+      "price": "150",
+      "id": 4
+    },
+    {
+      "name": "Monitor",
+      "price": "300",
+      "id": 5
+    },
+    {
+      "name": "Mesa",
+      "price": "250",
+      "id": 6
+    },
+    {
+      "name": "Celular",
+      "price": "500",
+      "id": 7
+    },
+    {
+      "name": "Fone de Ouvido",
+      "price": "120.80",
+      "id": 8
+    },
+    {
+      "name": "Notebook",
+      "price": "1200",
+      "id": 9
+    },
+    {
+      "name": "Impressora",
+      "price": "1750.50",
+      "id": 10
+    },
+    {
+      "id": "934c",
+      "name": "Geladeira",
+      "price": "1500"
+    },
+    {
+      "id": "d340",
+      "name": "Televisão",
+      "price": "1400"
+    }
+  ]
+}

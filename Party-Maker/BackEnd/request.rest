@@ -1,0 +1,108 @@
+// Arquivo para Testes de Requisição
+
+POST http://localhost:3000/api/services     
+Content-Type: application/json
+
+{
+    "name": "Open Bar",
+    "description": "Todas as bebidas servidas de forma gratuita para os seus convidados.",
+    "price": 2000,
+    "image": "https://images.unsplash.com/photo-1617752357354-e2fb98083392?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80"
+}
+
+###
+
+GET http://localhost:3000/api/services
+
+###
+
+GET http://localhost:3000/api/services/:id
+
+###
+
+DELETE http://localhost:3000/api/services/:id
+
+###
+
+PUT http://localhost:3000/api/services/:id
+Content-Type: application/json
+
+{
+    "name": "Serviço de Teste Atualizado",
+    "description": "Descrição de Teste Atualizada",
+    "price": 1550,
+    "image": "https://preview.redd.it/blackbeard-writing-his-heresy-v0-3ijx4fmucmtb1.jpg?auto=webp&s=616b4856e3513db15dca2a5d375e4d4d41b47708"
+}
+
+###
+
+###
+
+POST http://localhost:3000/api/parties
+Content-Type: application/json
+
+{
+    "title": "Evento de teste com Serviços",
+    "author": "Pedro Solano",
+    "description": "Evento sendo criado para Testes",
+    "budget": 3000,
+    "image": "imagem-de-teste.jpg",
+    "services": [
+        {
+            "name": "Serviço de Exemplo 1",
+            "description": "Descrição de Exemplo 1",
+            "price": 1500,
+            "image": "Imagem de Exemplo 1"
+        },
+        {
+            "name": "Serviço de Exemplo 2",
+            "description": "Descrição de Exemplo 2",
+            "price": 2500,
+            "image": "Imagem de Exemplo 2"
+        },
+        {
+            "name": "Serviço de Exemplo 3",
+            "description": "Descrição de Exemplo 3",
+            "price": 1000,
+            "image": "Imagem de Exemplo 3"
+        }
+    ]
+}
+
+###
+
+GET http://localhost:3000/api/parties
+
+###
+
+GET http://localhost:3000/api/parties/:id
+
+###
+
+DELETE http://localhost:3000/api/parties/:id
+
+###
+
+PUT http://localhost:3000/api/parties/:id
+Content-Type: application/json
+
+{
+    "title": "Evento de teste Atualizado",
+    "author": "Pedro Solano",
+    "description": "Evento sendo criado para Testes atualizado",
+    "budget": 3000,
+    "image": "imagem-de-teste.jpg",
+    "services": [
+        {
+        "name": "Serviço de Exemplo 1 Atualizado",
+        "description": "Descrição de Exemplo 1",
+        "price": 1500,
+        "image": "Imagem de Exemplo 1",
+        "_id": "681cef7af6aab130b939f575",
+        "createdAt": "2025-05-08T17:52:58.541Z",
+        "updatedAt": "2025-05-08T17:52:58.541Z"
+      }
+    ]
+}
+
+###

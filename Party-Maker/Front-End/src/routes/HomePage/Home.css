@@ -1,0 +1,44 @@
+/* Estilos da Página Principal */
+
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+#parties-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 1.5rem;
+    padding: 0 2rem;
+}
+
+#parties-container .party {
+    max-width: 380px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 0.8rem;
+}
+
+#parties-container .party img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+
+#parties-container .party-btn {
+    max-width: 120px;
+    text-align: center;
+    background-color: #ffffff;
+    border: 1px solid #dfdfdf;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+#parties-container .party-btn:hover {
+    opacity: 1;
+}

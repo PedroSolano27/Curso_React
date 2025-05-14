@@ -1,0 +1,24 @@
+/* Estilos específicos do HookUseCallback.jsx */
+
+#callback-hook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#callback-hook .items {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#callback-hook button {
+    width: 100px;
+    padding: 0.3rem;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border: 1px solid #7c7c7c;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}

@@ -1,0 +1,36 @@
+/* Estilos do Aplicativo Principal */
+
+#root {
+  min-width: 500px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  padding: 0.8rem;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+h3, p {
+  margin: 5px 0;
+}
+
+#hook-tests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+#hook-tests section{
+  min-width: 300px;
+  min-height: 200px;
+  background-color: #e9e9e9;
+  padding: 1rem;
+  margin-bottom: 0.8rem;
+  border-radius: 5px;
+}

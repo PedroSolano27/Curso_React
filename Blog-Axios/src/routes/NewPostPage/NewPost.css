@@ -1,0 +1,46 @@
+/* Estilos da Página de criação de Post */
+
+#new-post h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#new-post form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#new-post .form-control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+#new-post label {
+    margin-bottom: 0.5rem;
+}
+
+#new-post input,
+#new-post textarea {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+#new-post .create-btn {
+    background-color: #ffffff;
+    color: #0e1217;
+    border: 1px solid #ffffff;
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#new-post .create-btn:hover {
+    background-color: #0e1217;
+    color: #ffffff;
+}

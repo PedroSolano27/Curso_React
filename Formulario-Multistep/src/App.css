@@ -1,0 +1,145 @@
+/* Estilos do Aplicativo */
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+
+/* Container dos Formulários */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 1.5rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.inputs {
+    min-height: 280px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-weight: bold;
+    color: #777777;
+    font-size: 0.9rem;
+}
+
+input, textarea {
+    padding: 0.6rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+textarea {
+    min-height: 120px;
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.actions button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    border: none;
+    border-radius: 3px;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.actions button:hover {
+    background-color: #cfcfcf;
+}
+
+
+/* Específicos do Formulário de Review */
+.score-container {
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.score-container svg {
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.score-container svg:hover,
+.score-container input:checked ~ svg {
+    fill: #7076f4
+}
+
+.radio-container {
+    text-align: center;
+    position: relative;
+}
+
+.radio-container input {
+    opacity: 0;
+    position: absolute;
+    top: 15px;
+    left: 27px; 
+}
+
+.radio-container p{
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 0.4rem;
+}
+
+
+/* Específicos do Formulário Final */
+.final-container {
+    text-align: center;
+}
+
+.final-container h2 {
+    margin-bottom: 1rem;
+}
+
+.final-container p {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.final-container h3 {
+    margin: 1rem 0;
+}
+
+.review-data {
+    color: #777777;
+    text-align: left;
+}
+
+.review-data svg {
+    margin-left: 5px;
+}
+
+.review-data span {
+    font-weight: bold;
+}

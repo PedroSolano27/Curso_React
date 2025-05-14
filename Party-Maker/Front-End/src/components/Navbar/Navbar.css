@@ -1,0 +1,26 @@
+/* Estilos da Barra de Navegação */
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#navbar a {
+    background-color: #ffffff;
+    border-radius: 5px;
+    max-width: 150px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+#navbar a:hover {
+    opacity: 1;
+}
+
+#navbar .active {
+    background-color: #2803fc;
+    color: #ffffff;
+}

@@ -1,0 +1,28 @@
+/* Estilos das Opções */
+
+.option {
+    background-color: #3c0e70;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.4s;
+}
+
+.option:hover {
+    opacity: 1;
+}
+
+.correct {
+    background-color: #0bfc03;
+    font-weight: bold;
+}
+
+.incorrect {
+    opacity: 0.4;
+}
+
+.removed {
+    display: none;
+}

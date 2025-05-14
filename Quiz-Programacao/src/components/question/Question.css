@@ -1,0 +1,22 @@
+/* Estilos da página de Questões */
+
+#question {
+    text-align: center;
+    width: 500px;
+    padding: 2rem;
+    background-color: #8435de;
+    border-radius: 1rem;
+}
+
+#question h2 {
+    margin-bottom: 2rem;
+}
+
+#cont-pergunta {
+    margin-bottom: 1rem;
+}
+
+#question button {
+    border: 1px solid #ffffff;
+    margin: 1.5rem;
+}

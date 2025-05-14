@@ -1,0 +1,8 @@
+/* Estilos dos Elementos */
+
+.container{
+  min-height: 400px;
+  min-width: 400px;
+  background-color: #0a1c63;
+  padding: 2rem;
+}

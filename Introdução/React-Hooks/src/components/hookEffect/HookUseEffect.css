@@ -1,0 +1,27 @@
+/* Específicos do HookUseEffect.jsx */
+
+#effect-hook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#effect-hook h4{
+    font-weight: 300;
+}
+
+#effect-hook p {
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+#effect-hook button {
+    padding: 0.3rem;
+    margin-top: 10px;
+    width: 60%;
+    background-color: #ffffff;
+    border: 1px solid #7c7c7c;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}

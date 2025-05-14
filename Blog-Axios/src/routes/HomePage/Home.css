@@ -1,0 +1,50 @@
+/* Estilos da Página Home */
+
+#home h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+#home .post {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #777777;
+}
+
+#home .post h3,
+#home .post p {
+    margin-bottom: 1rem;
+}
+
+#home .post h3{
+    font-size: 1.5rem;
+}
+
+#home .post h3::first-letter {
+    text-transform: uppercase;
+}
+
+#home .post p {
+    text-transform: capitalize;
+}
+
+#home .post-link {
+    background-color: #ffffff;
+    color: #0e1217;
+    border: 1px solid #ffffff;
+    opacity: 1;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    max-width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#home .post-link:hover {
+    background-color: #0e1217;
+    color: #ffffff;
+}

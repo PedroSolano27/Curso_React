@@ -1,0 +1,11 @@
+/* Estilo do Título */
+.title {
+    color: orange;
+    background-color: antiquewhite;
+    transition: 0.3s;
+}
+
+.title:hover{
+    color: white;
+    background-color: #333333;
+}
